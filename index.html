@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ElectroPro - Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="logo">ElectroPro</div>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="cart.html">Cart (<span id="cartCount">0</span>)</a></li>
+  </ul>
+  <div class="nav-right">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </div>
+</nav>
+
+<!-- Banner -->
+<section class="banner">
+  <h1>Upgrade Your Electronics!</h1>
+  <p>Best deals on latest gadgets</p>
+  <a href="#products" class="btn-banner">Shop Now</a>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="products-section">
+  <div class="container" id="productList"></div>
+  <button id="viewMoreBtn" class="btn-viewmore">View More Products</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 ElectroPro. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
